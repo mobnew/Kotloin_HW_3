@@ -16,7 +16,7 @@ class MainKtTest {
         val ammount = 100000
         val cardType = "Mir"
         val result = ru.netology.miniBank(ammount,cardType)
-        assertEquals(0,result)
+        assertEquals(100,result)
     }
 
     @Test
